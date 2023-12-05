@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "gsap": "^3.12.3",
+    "three": "^0.159.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.0"
+  }
+}

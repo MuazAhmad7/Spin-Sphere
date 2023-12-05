@@ -1,0 +1,57 @@
+*{
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body,html
+{
+  overflow-x: hidden;
+  overflow-y: hidden;
+  font-family: 'Zilla Slab', serif;
+}
+
+.webgl
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+nav
+{
+  color:burlywood;
+  z-index: 2;         /* the z inded is the position and this is 2 because the one above is 1 and 2 make it able to be seen*/
+  position: relative; /* makes the position relative to the one above*/
+  padding: 4rem 8rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a /* nav a is the sphere defined in index.html*/
+{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav ul /*explore and create*/
+{
+  list-style: none;
+  display: flex;
+  gap: 4rem;
+}
+
+.title /*give it a spin*/
+{
+  color: white;
+  z-index: 2;
+  position: absolute;
+  font-size: 3rem;
+  right: 34.5%;
+  top: 50%; /*75% puts it a below the sphere*/
+  transform: translate(-34.5%, -50%);
+}
